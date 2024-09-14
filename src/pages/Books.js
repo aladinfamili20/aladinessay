@@ -28,8 +28,9 @@ const Books = () => {
             <img src={require('../images/Book Cover 5.png')}  alt='Art-Hub Logo' className='bookCoverImg' />
             </a>
 
-            <img src={require('../images/Book Cover 1.png')}   alt='Art-Hub Logo'  className='bookCoverImg' />
-            </div>
+            <a href="https://a.co/d/fP1z3kS" target="blank">
+              <img src={require('../images/RiseofRobots.png')} alt="Rise of Robots" className="bookCoverImg" />
+            </a>            </div>
             </div>
             </div>
      </div>

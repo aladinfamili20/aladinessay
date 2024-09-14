@@ -1,3 +1,50 @@
-.booksContainer {
-    margin-top: 60px;
+.storiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.loading {
+    color: #888;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.storiesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.storyCard {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+ }
+
+.storyCard:hover {
+    transform: translateY(-5px);
+}
+
+.storyImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.storyTitle {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.storyGenre {
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
 }
